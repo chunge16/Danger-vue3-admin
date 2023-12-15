@@ -1,7 +1,7 @@
 # Danger-vue3-admin
 
-<p style="text-align: center;padding-bottom: 20px">
-<img src="logo.png" alt="logo" width="150" height="150" />
+<p align="center">
+<img src="public/logo_transparent.png" alt="logo" width="200" height="200" />
 </p>
 
 ### 介绍 📖

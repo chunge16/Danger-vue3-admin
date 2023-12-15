@@ -5,18 +5,17 @@
   "type": "module",
   "description": "danger-vue3-admin open source management system",
   "author": {
-    "name": "Geeker",
-    "email": "848130454@qq.com",
-    "url": "https://github.com/HalseySpicy"
+    "name": "chunge16",
+    "email": "chunge1945@outlook.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/HalseySpicy/Geeker-Admin",
+  "homepage": "https://github.com/chunge16/Danger-vue3-admin",
   "repository": {
     "type": "git",
-    "url": "git@github.com:HalseySpicy/Geeker-Admin.git"
+    "url": "git@github.com:chunge16/Danger-vue3-admin.git"
   },
   "bugs": {
-    "url": "https://github.com/HalseySpicy/Geeker-Admin/issues"
+    "url": "https://github.com/chunge16/Danger-vue3-admin/issues"
   },
   "scripts": {
     "dev": "vite",

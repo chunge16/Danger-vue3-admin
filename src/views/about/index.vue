@@ -3,8 +3,8 @@
     <div class="card mb10">
       <h4 class="title">简介</h4>
       <span class="text">
-        <el-link type="primary" href="https://docs.spicyboy.cn" target="_blank">Geeker-Admin</el-link>
-        一款基于 Vue3.3、TypeScript、Vite5、Pinia、Element-Plus 开源的后台管理框架，使用目前最新技术栈开发。项目提供强大的
+        <el-link type="primary" href="https://github.com/chunge16/Danger-vue3-admin" target="_blank" disabled>{{ name }}</el-link>
+        一款基于 Vue3.3、javascript、Vite5、Pinia、Element-Plus 开源的后台管理框架，使用目前最新技术栈开发。项目提供强大的
         <el-link type="primary" href="https://juejin.cn/post/7166068828202336263" target="_blank">ProTable 组件</el-link>
         在一定程度上提高您的开发效率。另外本项目还封装了一些常用组件、Hooks、指令、动态路由、按钮级别权限控制等功能。
       </span>
@@ -18,17 +18,18 @@
         <el-descriptions-item label="发布时间" label-align="left">
           <el-tag>{{ lastBuildTime }}</el-tag>
         </el-descriptions-item>
-        <el-descriptions-item label="Gitee" label-align="left">
-          <el-link type="primary" href="https://gitee.com/HalseySpicy/Geeker-Admin" target="_blank"> Gitee </el-link>
-        </el-descriptions-item>
         <el-descriptions-item label="Github" label-align="left">
-          <el-link type="primary" href="https://github.com/HalseySpicy/Geeker-Admin" target="_blank"> Github </el-link>
+          <el-link type="primary" href="https://github.com/chunge16/Danger-vue3-admin" target="_blank"> Github </el-link>
         </el-descriptions-item>
         <el-descriptions-item label="文档地址" label-align="left">
-          <el-link type="primary" href="https://docs.spicyboy.cn" target="_blank"> 文档地址 </el-link>
+          <el-link type="primary" href="https://github.com/chunge16/Danger-vue3-admin" target="_blank" disabled>
+            文档地址
+          </el-link>
         </el-descriptions-item>
         <el-descriptions-item label="预览地址" label-align="left">
-          <el-link type="primary" href="https://admin.spicyboy.cn" target="_blank"> 预览地址 </el-link>
+          <el-link type="primary" href="https://github.com/chunge16/Danger-vue3-admin" target="_blank" disabled>
+            预览地址
+          </el-link>
         </el-descriptions-item>
       </el-descriptions>
     </div>
@@ -57,7 +58,7 @@
 
 <script setup name="about">
 const { pkg, lastBuildTime } = __APP_INFO__;
-const { dependencies, devDependencies, version } = pkg;
+const { dependencies, devDependencies, version, name } = pkg;
 </script>
 
 <style lang="scss" scoped>
